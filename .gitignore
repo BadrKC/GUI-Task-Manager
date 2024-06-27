@@ -1,0 +1,20 @@
+# Ignore build artifacts
+*.o
+*.a
+*.so
+*.exe
+*.dll
+build/
+
+# Ignore Qt generated files
+moc_*.cpp
+ui_*.h
+*.qrc
+
+# Ignore user-specific files
+*.user
+*.pro.user
+
+# Ignore temporary files
+*.tmp
+*.log
